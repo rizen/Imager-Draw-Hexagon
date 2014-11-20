@@ -152,7 +152,7 @@ sub ns_coords {
 
 =head2 outline()
 
-Call this to draw an outline of a hex on the image. It accepts all the same parameters as L<Imager/polyline>, plus:
+Call this to draw an outline of a hex on the image. It accepts all the same parameters as L<Imager::Draw/polyline>, plus:
 
 =over
 
@@ -175,7 +175,7 @@ sub outline {
 
 =head2 draw()
 
-Call this to draw a filled hex on the image. It accepts all the same parameters as L<Imager/polygon>, plus:
+Call this to draw a filled hex on the image. It accepts all the same parameters as L<Imager::Draw/polygon>, plus:
 
 =over
 
